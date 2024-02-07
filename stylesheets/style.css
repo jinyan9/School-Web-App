@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+nav {
+    background-color: lightblue !important;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+select option {
+    background-color: #007BFF !important;
+    color: #EE7644;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.container-fluid{
+    background-color: #EE7644;
+    color: #fff;
+}
+.max-w-4xl {
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 128px; 
+            }
+#section2 {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+
+        #section2 .text-container,
+        #section2 .card-container {
+            max-width: 100%;
+        }
+.d-flex{
+    flex-direction:column;
+    margin-top:10px;
+    padding-bottom:10%;
+}
+img-fluid{
+    max-width: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: #fff;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.offcanvas {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    width: 100%;
+}
+
+.open-btn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+i.fa fa info-circle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+i.fa fa info-circle {
+    font-size: 20px;
+    color: #FFFFFF; 
+    cursor: pointer;
+}
+
+i.fa fa info-circle:hover {
+    color: #EE7644; 
+}
+.offcanvas-custom-width {
+        width: 80%;
+    }
+
+.custom-table {
+    background-color: #d1edf2;
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.custom-table th, .custom-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.custom-table tbody tr:hover {
+    background-color: #f5f5f5;
+    transition: background-color 0.3s ease-in-out;
+}
+.text-container{
+    text-align:center;
+}
+
+.dataTables_length select {
+    color: black !important;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar-toggler {
+        display: block;
+        background-color: #007BFF;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        padding: 10px;
+        cursor: pointer;
+        margin: 10px auto; /* Center the hamburger button */
+    }
+
+    .navbar-toggler:focus,
+    .navbar-toggler:active {
+        outline: none;
+    }
+
+    .navbar-toggler-icon {
+        display: none; 
+    }
+
+    .navbar-toggler span {
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: #fff;
+        margin: 6px 0;
+    }
+
+    .navbar-toggler[aria-expanded="true"] span {
+        background-color: transparent; /* Hide the lines when menu is open */
+    }
+
+    .navbar-collapse {
+        text-align: center;
+    }
+    
+    /* Add your custom styles here */
+    .container-hero {
+        background-color: #ffc0cb; /* Pink background color */
+        padding: 20px; /* Add some padding to the container */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow to the container outline */
+    }
+
+    .img-fluid {
+        max-width: 50%; /* Set the maximum width to 100% of its container */
+        height: auto; /* Maintain the image's aspect ratio */
+    }
+
+    
+    .navbar {
+        background-color: #add8e6; /* Light blue background */
+    }
+    .navbar-brand,
+    .navbar-nav .nav-link {
+        color: #000000;
+    }
+    .section-padding-top {
+        padding-top: 400px; /* Adjust as needed */
+    }
+    .card img {
+        height: 300px; /* Adjust the height as needed */
+        object-fit: cover; /* Ensure the image covers the entire container */
+    }
+    
+    
+    .modal-backdrop {
+        z-index: 5000 !important;
+    }
+
+
+
+    
+
+
+}
